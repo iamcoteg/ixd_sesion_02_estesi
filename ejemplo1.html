@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Esto es un ejemplo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script>
+            function setup() {
+                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1); frameRate(2); 
+            }
+            function draw() {
+                background(random(0,255), random(0,255),random(0,255));
+            }
+            function windowResized() { 
+                resizeCanvas(windowWidth - 40, windowHeight - 40);
+            } 
+        </script>
+        <style>
+            body{
+                font-family: Helvetica, Arial, sans-serif;
+                text-align: center;
+                color: white;
+            }
+            h1{
+                margin-top: 48vh;
+            }
+        </style> 
+    </head>
+    <body> 
+        <h1>hola mundo!</h1>
+        <p>Loren ipsum.</p>
+    </body>
+    </html>
