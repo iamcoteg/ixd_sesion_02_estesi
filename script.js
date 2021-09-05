@@ -27,8 +27,8 @@ var lorenIpsum = ["párrafo","texto","escrito","pasaje","enunciado"];
 function setup() {
     noCanvas();
     createElement("h1", elSaludo).parent(elEncabezado).id("title");
-    createA("index.html", "index").parent("vinculos");
-    createA("page.html", "page").parent("vinculos");
+    createA("index.html", "Portada").parent("vinculos");
+    createA("page.html", "Página").parent("vinculos");
     if (dondeEstas) {
         portada();
     } else {
