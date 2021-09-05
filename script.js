@@ -44,6 +44,6 @@ function portada() {
 
 function pagina() {
     createSpan("Estás en page.html").parent("title");
-    createElement('p','Y este es un '+random(lorenIpsum)+' en la página.').parent(loPrincipal);
+    createElement('p','Mi comida favorita es '+random(lorenIpsum)+' .').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
