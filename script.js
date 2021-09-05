@@ -37,13 +37,13 @@ function setup() {
 }
 
 function portada() {
-    createSpan("Estás en index.html").parent("title");
+    createSpan("Estás en la portada").parent("title");
     createElement('p','Y este es un '+random(lorenIpsum)+' en la portada.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
 function pagina() {
-    createSpan("Estás en page.html").parent("title");
+    createSpan("Estás en página").parent("title");
     createElement('p','Mi comida favorita es '+random(lorenIpsum)+' .').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
